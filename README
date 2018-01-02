@@ -1,0 +1,53 @@
+  210  Dec/31 - 11:42:39 pacaur -Ss cope-git
+  501  Jan/02 - 11:50:27 mkdir gitTest
+  502  Jan/02 - 11:50:30 cd gitTest/
+  506  Jan/02 - 11:52:53 git init
+  508  Jan/02 - 11:53:01 ls .git/
+  509  Jan/02 - 11:53:35 git config global user.name 'trevizani'
+  510  Jan/02 - 11:53:40 git config --global user.name 'trevizani'
+  511  Jan/02 - 11:54:12 git config --global user.email 'raphaeltrevizani@gmail.com'
+  512  Jan/02 - 11:54:16 git config --global user.name 'raphaeltrevizani'
+  516  Jan/02 - 11:54:26 tree -d .git/
+  517  Jan/02 - 11:54:30 tree  .git/
+  518  Jan/02 - 11:54:39 ls -lh  .git/
+  519  Jan/02 - 11:54:46 ls -lh  .git/info/
+  520  Jan/02 - 11:55:15 git add test.py 
+  521  Jan/02 - 11:55:24 git status
+  523  Jan/02 - 11:56:54 git status
+  524  Jan/02 - 11:57:09 git add *
+  525  Jan/02 - 11:57:11 git status
+  526  Jan/02 - 11:59:55 git commit -m 'change01'
+  528  Jan/02 - 12:00:14 git commit
+  530  Jan/02 - 12:05:22 ls .git/
+  531  Jan/02 - 12:05:29 tree .git/
+  535  Jan/02 - 12:07:40 git branch test_branch1.py
+  537  Jan/02 - 12:08:04 git checkout test_branch1.py 
+  538  Jan/02 - 12:08:07 git status
+  544  Jan/02 - 12:29:15 git status
+  545  Jan/02 - 12:29:20 git add 
+  546  Jan/02 - 12:29:22 git add .
+  548  Jan/02 - 12:29:27 git status
+  549  Jan/02 - 12:29:38 git commit -m 'branch1'
+  550  Jan/02 - 12:29:41 git status
+  551  Jan/02 - 12:30:06 git checkout mastser
+  552  Jan/02 - 12:30:09 git checkout master
+  554  Jan/02 - 12:30:23 git checkout test_branch1.py 
+  556  Jan/02 - 12:31:24 git merge test_branch1.py 
+  558  Jan/02 - 12:31:43 git checkout master
+  559  Jan/02 - 12:31:48 git merge test_branch1.py 
+  561  Jan/02 - 12:32:00 git status
+  562  Jan/02 - 12:38:48 git remote add origin https://github.com/raphaeltrevizani/test.git
+  563  Jan/02 - 12:38:51 git remote 
+  564  Jan/02 - 12:39:21 git push -u origin master
+  565  Jan/02 - 12:41:31 git push
+  567  Jan/02 - 12:42:30 rm gitTest/ -r
+  568  Jan/02 - 12:42:36 rm gitTest/ -rf
+  569  Jan/02 - 12:42:41 mkdir gitTest
+  570  Jan/02 - 12:43:00 git clone https://github.com/raphaeltrevizani/test.git
+  572  Jan/02 - 12:43:10 cd gitTest/
+  579  Jan/02 - 12:43:34 rm gitTest/
+  580  Jan/02 - 12:43:36 rm gitTest/ -r
+  586  Jan/02 - 12:44:24 history | grep git
+  588  Jan/02 - 12:44:37 mv test/ gitTest
+  589  Jan/02 - 12:44:38 cd gitTest/
+  590  Jan/02 - 12:44:56 history | grep git >README
